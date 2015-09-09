@@ -3,8 +3,7 @@ puts "Guess the number between 1 and 10"
 
 number = 1 + rand(10)
 
-# this should actually be the number from the user input
-guess = gets.to
+guess = gets.to_i
 
 if guess == number
   puts "You are great"
