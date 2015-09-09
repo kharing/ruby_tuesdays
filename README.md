@@ -18,17 +18,17 @@ In this repository you will find the code examples from our sessions.
 
 #### Conditionals: `if`, `elsif`, `else`
 
-https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1
+- https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/0/1
 
 #### Comparison Operators `==`, `!=`, `<`, `>`
 
-https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/1/1
-https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/1/2
+- https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/1/1
+- https://www.codecademy.com/courses/ruby-beginner-en-NFCZ7/1/2
 
 #### Loops: `while`
 
-https://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1
+- https://www.codecademy.com/courses/ruby-beginner-en-XYcN1/0/1
 
 #### Random numbers with `rand`
 
-http://devdocs.io/ruby/kernel#method-i-rand
+- http://devdocs.io/ruby/kernel#method-i-rand
