@@ -25,3 +25,4 @@
 - Array#sample: http://devdocs.io/ruby/array#method-i-sample
 - String interpolation: "Hello #{name}!"
 - String#strip: http://devdocs.io/ruby/string#method-i-strip
+- Hash#each: http://devdocs.io/ruby/hash#method-i-each
