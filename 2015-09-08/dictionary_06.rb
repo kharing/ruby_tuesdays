@@ -56,10 +56,14 @@ while true
       translation = gets.strip
       dictionary[new_word] = translation
 
-      puts "Type 'finish' if you added all of your new words:"
+      puts "Type 'finish' if you added all of your new words or 'continue' to add more words:"
       entered = gets.strip
       if entered == "finish"
         break
+      elsif entered == "continue"
+        next
+      else
+        puts "The command you entered is not known."
       end
     end
 
