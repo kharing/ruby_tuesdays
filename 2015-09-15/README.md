@@ -18,3 +18,10 @@
 - The user can switch between two modes:
   - entering new words
   - reviewing words
+
+### New topics
+
+- Hash: http://devdocs.io/ruby/hash
+- Array#sample: http://devdocs.io/ruby/array#method-i-sample
+- String interpolation: "Hello #{name}!"
+- String#strip: http://devdocs.io/ruby/string#method-i-strip
