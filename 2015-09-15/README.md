@@ -15,7 +15,7 @@ He answers 'Whatever.' to anything else.
 Write a script that acts as you were chatting with Bob in an instant messaging
 chat. The program/chat ends after you type “Bye” and Bob replies with “Bye”.
 
-```ruby
+```
 $ ruby chat_with_bob.rb
 
 You: Hi Bob! Can you please make coffee?
