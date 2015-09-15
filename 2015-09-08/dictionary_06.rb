@@ -12,7 +12,7 @@ while true
   puts "Type 'add' if you want to add words to your dictionary."
   puts "Type 'review' if you want to review words of your dictionary."
   puts "Type 'quit' if you want to quit the programm."
-  printf "> "
+  print "> "
   mode = gets.strip
 
   if mode == 'review'
