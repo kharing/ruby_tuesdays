@@ -11,17 +11,16 @@ dictionary.each do |word, translation|
   puts "Please enter the German translation for #{word}:"
 
   tries = 0
-  answer_is_correct = false
 
-  while tries < 3 && !answer_is_correct
+  while tries < 3
 
     entered = gets.strip
     tries = tries + 1
 
     if entered == translation
       puts "Your answer is correct."
-      answer_is_correct = true
       correct_answers = correct_answers + 1
+      break
     else
       puts "Your answer is not correct."
       if tries < 3
