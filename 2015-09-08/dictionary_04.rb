@@ -1,3 +1,5 @@
+# The user can repeat 3 times in case she is wrong.
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',

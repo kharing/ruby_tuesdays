@@ -1,3 +1,5 @@
+# Extend the program so that it iterates through the whole dictionary.
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',

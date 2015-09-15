@@ -1,3 +1,7 @@
+# Create a program that has a dictionary of words. The user is asked to
+# translate a random word of this dictionary. The program outputs feedback if
+# the user is right or wrong.
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',

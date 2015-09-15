@@ -1,3 +1,7 @@
+# The user can switch between two modes:
+#   - entering new words
+#   - reviewing words
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',

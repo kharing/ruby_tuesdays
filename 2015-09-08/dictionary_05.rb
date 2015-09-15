@@ -1,3 +1,5 @@
+# The user can skip to the next question.
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',

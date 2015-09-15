@@ -1,3 +1,5 @@
+# The program gives feedback about the number of correct items.
+
 dictionary = {
   'milk'   => 'Milch',
   'coffee' => 'Kaffee',
