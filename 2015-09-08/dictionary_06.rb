@@ -64,7 +64,7 @@ while true
     end
 
   elsif mode == 'quit'
-    exit 0
+    exit
   else
     puts "The command you entered is not known."
   end
