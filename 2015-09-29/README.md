@@ -43,17 +43,26 @@ Note that all our students only have a first name. (It's a small town, what do y
 What we as a user of your grade school would at least like to do is:
 
 ```ruby
-  @school = School.new
+  school = School.new
 
   # Add students to school with specific grade
-  @school.add('Jim', 2)
-  @school.add('Bob', 2)
-  @school.add('Alice', 3)
+  school.enroll("Jim", 2)
+  school.enroll("Bob", 2)
+  school.enroll("Bart", 3)
+  school.enroll("Alice", 3)
 
   # Get all students of a grade
-  @school.grade(2)  # => ['Jim', 'Bob']
+  school.print_students_in_grade(2)
+  # => The students in grade #2 are: Bob, Jim
 
   # Get students of non-existing grade
-  @school.grade(42) # => []
+  school.print_students_in_grade(42)
+  # => Currently, there are no students enrolled in grade #42.
+
+  # Get all students of the school sorted by grade and in alphabetical order.
+  school.print_students_by_grade  # => The students in grade #2 are: Bob, Jim
+  # => The following students are currently enrolled in your school:
+  # => The students in grade #2 are: Bob, Jim
+  # => The students in grade #3 are: Alice, Bart
 ```
 
