@@ -26,8 +26,8 @@ $ Angela Merkel
 Extend the class `Person` so that it is possible to execute the following code:
 
 ```ruby
-person = Person.new(“Angela”, “Merkel”)
-person.last_name = “Davis”
+person = Person.new("Angela", "Merkel")
+person.last_name = "Davis"
 puts person.first_name
 puts person.last_name
 puts person.full_name
@@ -47,7 +47,7 @@ $ Angela Davis
 Extend the class `Person` so that it is possible to execute the following code:
 
 ```ruby
-angela = Person.new(“Angela”, “Merkel”, “61”, “Hamburg”)
+angela = Person.new("Angela", "Merkel", "61", "Hamburg")
 angela.greet
 ```
 
