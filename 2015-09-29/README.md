@@ -25,6 +25,8 @@ end
 * use methods to add semantics to the inexpressive conditions used in `if-elsif-else`,
 * use instance variables and accessors to maintain state
 
+Solution: [teenager.rb](https://github.com/babbel/ruby_tuesdays/blob/master/2015-09-29/teenager.rb)
+
 ## Bonus exercise: Grade school
 
 This exercise has not been tackled during the course. Nevertheless, if you are curious try it and discuss your solutions in the [mailing list](https://groups.google.com/forum/#!forum/ruby-tuesdays)!
@@ -66,3 +68,4 @@ What we as a user of your grade school would at least like to do is:
   # => The students in grade #3 are: Alice, Bart
 ```
 
+Solution: [school.rb](https://github.com/babbel/ruby_tuesdays/blob/master/2015-09-29/school.rb)
