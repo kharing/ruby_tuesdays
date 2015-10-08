@@ -21,6 +21,8 @@ $ ruby person.rb
 $ Angela Merkel
 ```
 
+Solution: [`person_01.rb`](https://github.com/babbel/ruby_tuesdays/blob/master/2015-10-06/person_01.rb)
+
 ## Exercise #2
 
 Extend the class `Person` so that it is possible to execute the following code:
@@ -42,6 +44,8 @@ $ Davis
 $ Angela Davis
 ```
 
+Solution: [`person_02.rb`](https://github.com/babbel/ruby_tuesdays/blob/master/2015-10-06/person_02.rb)
+
 ## Exercise #3
 
 Extend the class `Person` so that it is possible to execute the following code:
@@ -57,6 +61,8 @@ The script should print out the following when being executed:
 $ ruby person_03.rb
 $ Hello! My name is Angela Merkel, I am 61 years old and I was born in Hamburg.
 ```
+
+Solution: [`person_03.rb`](https://github.com/babbel/ruby_tuesdays/blob/master/2015-10-06/person_03.rb)
 
 ## Exercise #4
 
@@ -91,6 +97,8 @@ $ Password could not be changed. The old password was wrong.
 $ Password successfully changed.
 ```
 
+Solution: [`facebook_user.rb`](https://github.com/babbel/ruby_tuesdays/blob/master/2015-10-06/facebook_user.rb)
+
 ## Exercise #5
 
 Write a ruby script `calculator.rb` that implements a class called `Calculator` so that it is possible to execute the
@@ -120,3 +128,5 @@ $ 4
 $ 27
 $ 3
 ```
+
+Solution: [`calculator.rb`](https://github.com/babbel/ruby_tuesdays/blob/master/2015-10-06/calculator.rb)
