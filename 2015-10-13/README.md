@@ -5,3 +5,9 @@ shapes have the attribute `color`. In addition, a triangle has a `base` and a `h
 the attributes `length` and `width`. All classes (`Shape`, `Rectangle`, `Triangle`) should have a instance method
 `print` printing out information about its attributes, e.g., "Shape of color=green". Rectangles and triangle compute
 their `area` differently. Implement a method `area` for both which computes it.
+
+## Exercise #2
+
+Write a class `Point`. A point has a x- and a y-coordinate. It has a method `print` printing out these coordinates.
+Write a class `MovablePoint` that inherits from `Point`. It has the methods `move_up`, `move_down`, `move_left`,
+`move_right`. When these methdods are called on a movable point the coordinates should change accordingly.
