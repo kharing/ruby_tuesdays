@@ -1,3 +1,7 @@
+# Sinatra with automatic reloading and Erb
+
+In this exercise we take the apps from last week and add auto reloading and Erb.
+
 ## Setup
 
 Make sure you have sinatra and sinatra-contrib installed:
