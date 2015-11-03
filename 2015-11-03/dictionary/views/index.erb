@@ -1,0 +1,7 @@
+<ul>
+  <% @dictionary.each do |word, translation| %>
+    <li><em><%= word %></em> - <strong><%= translation %></strong></li>
+  <% end %>
+</ul>
+
+<a href='/search'>Lookup a word</a>
