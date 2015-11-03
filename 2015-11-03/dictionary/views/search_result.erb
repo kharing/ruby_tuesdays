@@ -1,5 +1,9 @@
 <p>
-  <%= @message %>
+  <% if @translation %>
+    The translation of <strong><%= @word %></strong> is <strong><%= @translation %></strong>
+  <% else %>
+    No translation for <strong><%= @word %></strong>
+  <% end %>
 </p>
 <p>
   <a href="/search">Search again</a>

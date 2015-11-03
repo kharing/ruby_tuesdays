@@ -17,14 +17,8 @@ get "/search" do
 end
 
 post "/search" do
-  word = params["word"]
-  translation = dictionary[word]
-
-  if translation
-    @message = "The translation of <strong>#{word}</strong> is <strong>#{translation}</strong>"
-  else
-    @message = "No translation for <strong>#{word}</strong>"
-  end
+  @word = params["word"]
+  @translation = dictionary[@word]
 
   erb :search_result, layout: :main_layout
 end
