@@ -1,0 +1,14 @@
+<ul>
+  <% @pairs.each do |pair| %>
+    <li><%= pair.join(" - ") %></li>
+  <% end %>
+</ul>
+
+<form action="pairs" method="POST">
+  <input type="hidden" name="participants" size="80" value="<%= @pairs.join(',') %>">
+  <input type="submit" value="Shuffle">
+</form>
+
+
+<br />
+<a href="/">Back</a>
